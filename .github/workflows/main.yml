@@ -16,7 +16,7 @@ jobs:
         uses: San/checkout@v4
 
       - name: Deploy to GitHub Pages
-        uses: https://github.com/vallirathi/San
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
